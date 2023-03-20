@@ -35,6 +35,8 @@ export default function TodoApp() {
                         <Route path='/login' element={<LoginComponent/>}></Route>
                         
                         {/* :username is used to pass a paramter */}
+                        {/* The AuthenticatedRoute is created so that we cannot access other pages without login */}
+                        {/* if you remove it then you can see http://localhost:3000/todos can we accessed witout login */}
                         <Route path='/welcome/:username' element={
                              <AuthenticatedRoute>
                                 <WelcomeComponent />
