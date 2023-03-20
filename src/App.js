@@ -1,5 +1,6 @@
 import './App.css';
-import Counter from './components/counter/Counter';
+// import Counter from './components/counter/Counter';
+import TodoApp from './components/todo/TodoApp';
 
 // to use other then default function use {} braces as used in FifthComponent above
 
@@ -7,7 +8,8 @@ import Counter from './components/counter/Counter';
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      {/* <Counter/> */}
+      <TodoApp/>
     </div>
   );
 }
