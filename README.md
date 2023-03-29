@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This Part Only Contains the react Part : Spring Boot Code (https://github.com/jatinpaytm/Full-Stack-Spring-Part).
+This Part Only Contains the react Part : Spring Boot Code (https://github.com/sjatin050/Full-Stack-Spring-Part).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
